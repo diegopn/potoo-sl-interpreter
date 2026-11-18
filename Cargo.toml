@@ -1,0 +1,14 @@
+[package]
+name = "potoo-sl-interpreter"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.93"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/diegopn/potoo-sl-interpreter"
+homepage = "https://diegopn.github.io/potoo-site/manual/sl/"
+readme = "README.md"
+description = "An evaluation scaffold for a Rust implementation of SL, a Spanish educational algorithm language."
+
+[lib]
+name = "potoo_sl_interpreter"
+path = "src/lib.rs"
