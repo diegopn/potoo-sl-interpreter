@@ -7,8 +7,12 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/diegopn/potoo-sl-interpreter"
 homepage = "https://diegopn.github.io/potoo-site/manual/sl/"
 readme = "README.md"
-description = "An evaluation scaffold for a Rust implementation of SL, a Spanish educational algorithm language."
+description = "A host-driven interpreter for a documented subset of the Spanish SL educational language."
 
 [lib]
 name = "potoo_sl_interpreter"
 path = "src/lib.rs"
+
+[[bin]]
+name = "potoo-sl"
+path = "src/bin/potoo-sl.rs"

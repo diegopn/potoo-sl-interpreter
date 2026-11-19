@@ -10,4 +10,4 @@ For other project concerns, see [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_
 
 ## Current scope
 
-This repository contains only a minimal Rust crate scaffold. It does not parse or execute SL source and has no language runtime or sandbox. This policy must be updated before source execution is introduced.
+This crate parses and executes SL source. It does not sandbox programs. The embedding host controls terminal, file, keyboard, operating-system, and process services; enabling those services can give a program corresponding access. The command-line runner connects only the services it implements. Do not run untrusted source with a host that grants access to files or external commands.
