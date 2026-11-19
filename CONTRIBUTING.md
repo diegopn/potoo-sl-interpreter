@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions to this evaluation scaffold are welcome, including research notes, documentation, and changes to the Rust crate setup. By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md). For security concerns, follow [SECURITY.md](SECURITY.md) and do not report them publicly.
+Contributions to the SL interpreter are welcome, including bug reports, language-conformance tests, documentation, and code. By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md). For security concerns, follow [SECURITY.md](SECURITY.md) and do not report them publicly.
 
 ## Report an issue
 
